@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First child and Last child in CSS</title>
+    <style>
+        body{
+            background-color: bisque;
+        }
+      div p:first-child{
+            color: deeppink;
+        }
+     div p:last-child{
+            color:blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>This is 1st child 1st div</p>
+        <p>This is a paragraph. This is a paragraph
+            This is a paragraph. This is a paragraph
+            This is a paragraph. This is a paragraph
+ This is a paragraph. This is a paragraph
+ This is a paragraph. This is a paragraph
+ This is a paragraph. This is a paragraph
+        </p>
+        <p> This is last child of 1st div</p>
+    </div>
+    <hr>
+    <div>
+        <p>This is 1st child of 2nd div</p>
+        <p>This is a paragraph. This is a paragraph
+            This is a paragraph. This is a paragraph
+            This is a paragraph. This is a paragraph
+ This is a paragraph. This is a paragraph
+ This is a paragraph. This is a paragraph
+ This is a paragraph. This is a paragraph
+        </p>
+        <p> This is last child of 2nd div</p>
+    </div>
+
+    <hr>
+    <p>This is 1st child of 3nd div</p>
+<p>This is a paragraph. This is a paragraph
+    This is a paragraph. This is a paragraph
+    This is a paragraph. This is a paragraph
+ a paragraph. This is a paragraph
+ a paragraph. This is a paragraph
+ a paragraph. This is a paragraph
+</p>
+<p> This is last child of 3rd div</p>
+</body>
+</html>
